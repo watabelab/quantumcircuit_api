@@ -1,4 +1,4 @@
-django==4.1.2
+django
 dj-database-url
 dj-static
 python-decouple
