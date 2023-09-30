@@ -11,7 +11,7 @@ services:
     env: python
     region: singapore
     buildCommand: './build.sh'
-    startCommand: 'gunicorn react.wsgi:application'
+    startCommand: 'gunicorn mysite.wsgi:application'
     plan: free
     branch: t5
     healthCheckPath: /
